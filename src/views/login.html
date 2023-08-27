@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado Liebre</title>
-    <link rel="stylesheet" href="/Mercado-Liebre-Agustin-Ponce/public/stylesLogin.css">
+    <link rel="stylesheet" href="/public/stylesLogin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="headerDelHeader">
-            <img class="logo" src="../../images/logo-mercado-liebre.svg" alt="logo-mercado-liebre">
+            <img class="logo" src="/public/images/logo-mercado-liebre.svg" alt="logo-mercado-liebre">
 
             <div class="busqueda">
                 <input type="text" name="busqued" placeholder="Buscar productos, marcas">
@@ -40,10 +40,10 @@
             </ul>
 
             <ul class="botones-der">
-                <li><a href="/Mercado-Liebre-Agustin-Ponce/src/views/register.html">Crea tu cuenta </a><i class="fa-regular fa-id-card fa-2em"
+                <li><a href="/src/views/register.html">Crea tu cuenta </a><i class="fa-regular fa-id-card fa-2em"
                         style="color: #000000;"></i>
                 </li>
-                <li><a href="/Mercado-Liebre-Agustin-Ponce/src/views/login.html">Ingresa </a><i class="fa-solid fa-right-to-bracket fa-2em"
+                <li><a href="/src/views/login.html">Ingresa </a><i class="fa-solid fa-right-to-bracket fa-2em"
                         style="color: #000000;"></i>
                 </li>
                 <li><a href="/">Mis compras </a><i class="fa-solid fa-basket-shopping fa-2em"
@@ -57,7 +57,7 @@
         </div>
     </header>
     <main>
-        <form action="/Mercado-Liebre-Agustin-Ponce/src/views/login.html" method="POST">
+        <form action="/src/views/login.html" method="POST">
             <div>
                 <label for="usuario">Nombre de usuario:</label>
                 <input type="text" name="usuario" id="usuario">
