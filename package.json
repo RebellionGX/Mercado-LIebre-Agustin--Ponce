@@ -1,15 +1,4 @@
- {
-    "name": "16---intro-servidores",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "nodemon app.js",
-      "start": "node app.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+{
   "dependencies": {
     "express": "^4.18.2"
   }
