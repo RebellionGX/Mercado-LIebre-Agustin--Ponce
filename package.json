@@ -1,17 +1,15 @@
 {
-  "dependencies": {
-    "express": "^4.18.2"
-  },
   "name": "mercado-liebre-ponce",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js",
-    "start": "node app.js"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
